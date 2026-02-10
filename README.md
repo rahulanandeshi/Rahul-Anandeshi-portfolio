@@ -141,7 +141,7 @@ Before you begin, ensure you have the following installed on your machine:
 | ---------------------- | --------------- | ------------------------------------------- |
 | **Node.js**            | v18.17.0+       | [Download](https://nodejs.org/en/download/) |
 | **Git**                | Latest          | [Download](https://git-scm.com/downloads)   |
-| **pnpm** (recommended) | Latest          | [Install](https://pnpm.io/installation)     |
+| **npm** | Latest          | [Install](https://www.npmjs.com/get-npm)     |
 
 > **Note**: Next.js 16 requires Node.js 18.17 or later. Node.js 20+ is recommended for optimal performance.
 
@@ -152,7 +152,7 @@ Check your installations with these commands:
 ```bash
 node --version
 git --version
-pnpm --version  # or npm --version
+npm --version
 ```
 
 ---
@@ -169,9 +169,6 @@ cd developer-portfolio
 ### 2. Install Dependencies
 
 ```bash
-# Using pnpm (recommended)
-pnpm install
-
 # Using npm
 npm install
 
@@ -190,8 +187,6 @@ Edit the `.env` file with your values (see [Usage](#usage-joystick) section).
 ### 4. Run the Development Server
 
 ```bash
-pnpm dev
-# or
 npm run dev
 # or
 yarn dev
@@ -516,10 +511,7 @@ rm -rf node_modules package-lock.json
 npm cache clean --force
 npm install
 
-# Or with pnpm:
-rm -rf node_modules pnpm-lock.yaml
-pnpm store prune
-pnpm install
+```
 ```
 
 </details>
