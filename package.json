@@ -3,6 +3,7 @@
   "description": "Portfolio of Abu Said",
   "version": "0.1.0",
   "private": true,
+  "packageManager": "npm@latest",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
