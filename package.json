@@ -3,7 +3,6 @@
   "description": "Portfolio of Rahul Anandeshi",
   "version": "0.1.0",
   "private": true,
-  "packageManager": "npm@latest",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
